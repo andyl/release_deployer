@@ -43,7 +43,7 @@ defmodule Sysd.Remote do
   @doc "Upload a release tarball, extract it, update the symlink, and start/restart the service."
   def deploy(conn, app_name, local_tar_path, version) do
     deploy_release(conn, app_name, local_tar_path, version)
-    restart_or_start(conn, app_name)
+    restart_or_start(conn, "sysd_#{app_name}")
   end
 
   @doc "Start or restart a service depending on whether it is already active."
