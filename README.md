@@ -29,7 +29,7 @@ Add `sysd` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:sysd, "~> 0.4.2", github: "andyl/sysd"}
+    {:sysd, "~> 0.4.3", github: "andyl/sysd"}
   ]
 end
 ```

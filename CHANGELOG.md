@@ -5,6 +5,15 @@ See [Conventional Commits](Https://conventionalcommits.org) for commit guideline
 
 <!-- changelog -->
 
+## v0.4.3 (2026-05-20)
+
+
+
+
+### Bug Fixes:
+
+* use sysd-prefixed service name in Remote.deploy by andyl
+
 ## v0.4.2 (2026-04-10)
 
 
